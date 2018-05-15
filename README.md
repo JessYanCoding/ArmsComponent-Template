@@ -5,3 +5,14 @@
 
 ## Overview
 ![gif](art/ArmsComponent-Template.gif)
+
+## 如何安装？
+请将 **NewArmsComponent** 这个文件夹复制到 **AndroidStudio Module** 模版的存放路径, 请注意是复制整个文件夹, 不是里面的内容!
+
+**AndroidStudio Module** 模版存放路径 (**请注意 Module 级模板和页面级模板的存放路径不一样, 不要放错了!**):
+
+* Windows : AS安装目录/plugins/android/lib/templates/gradle-projects
+
+* Mac : /Applications/Android Studio.app/Contents/plugins/android/lib/templates/gradle-projects
+
+**最后记得重启 AndroidStudio !**
