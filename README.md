@@ -16,3 +16,8 @@
 * Mac : /Applications/Android Studio.app/Contents/plugins/android/lib/templates/gradle-projects
 
 **最后记得重启 AndroidStudio !**
+
+## 如何使用?
+使用时按下图步骤即可, 也可以使用快捷键, **Mac** 的快捷键是在项目名上按 **Command + n**, 选择  **Module**, **Windows** 快捷键自己百度
+
+![step](art/step.jpeg)
