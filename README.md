@@ -1,5 +1,5 @@
 # ArmsComponent-Template
-**一键搭建 [ArmsComponent](https://github.com/JessYanCoding/ArmsComponent) 快速组件化方案的整体组件架构, 让新手也可以一秒开始组件化项目, 开发神器, 让您一秒起飞, 避免组件化从入门到放弃!**
+**一键搭建 [ArmsComponent](https://github.com/JessYanCoding/ArmsComponent) 快速组件化方案的整体组件架构, 让新手也可以一秒开始组件化项目, 开发神器, 让您一秒起飞, 体验纯傻瓜式的组件化开发, 避免组件化从入门到放弃!**
 
 > **Tips: 先使用 ArmsComponent-Template (Module 级一键模板) 一键搭建整体组件架构, 再使用 [MVPArmsTemplate](https://github.com/JessYanCoding/MVPArmsTemplate) (页面级一键模板) 一键生成每个业务页面所需要的 MVP 及 Dagger2 相关类, 即可让什么都不懂的新手也可以一秒开始组件化项目!**
 
@@ -23,6 +23,8 @@
 ![step](art/step.jpeg)
 
 ## 注意事项
+* 本模板是基于 [ArmsComponent](https://github.com/JessYanCoding/ArmsComponent) 开发的, 所以使用的是 **ArmsComponent** 的整体架构, 最优的方式是直接 **clone** 或下载 **ArmsComponent** 工程后, 在工程上面直接使用本模板, 开始业务的开发, 让您体验纯傻瓜式的组件化开发
+
 * 此模板会持续保持更新, 但只保证能够兼容最新的 **AndroidStudio 稳定版**, 暂不提供其他版本
 
 ![attention-1](art/attention-1.jpeg)
