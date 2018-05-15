@@ -23,6 +23,8 @@
 ![step](art/step.jpeg)
 
 ## 注意事项
+* 此模板会持续保持更新, 但只保证能够兼容最新的 **AndroidStudio 稳定版**, 暂不提供其他版本
+
 ![attention-1](art/attention-1.jpeg)
 
 ![attention-2](art/attention-2.jpeg)
