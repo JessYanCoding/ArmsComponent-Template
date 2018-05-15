@@ -24,3 +24,5 @@
 
 ## 注意事项
 ![attention-1](art/attention-1.jpeg)
+
+![attention-2](art/attention-2.jpeg)
