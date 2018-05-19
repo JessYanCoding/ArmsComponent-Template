@@ -25,7 +25,7 @@
 ## 注意事项
 * 本模板是基于 [ArmsComponent](https://github.com/JessYanCoding/ArmsComponent) 开发的, 所以使用的是 **ArmsComponent** 的整体架构, 最优的方式是直接 **clone** 或下载 **ArmsComponent** 工程后, 在工程上面直接使用本模板, 开始业务的开发, 让您体验纯傻瓜式的组件化开发
 
-* 使用本模板生成的组件马上就可以独立运行, 但是如果您想要集成调试, 还需要在宿主 **App** 中[依赖此组件](https://github.com/JessYanCoding/ArmsComponent/blob/master/app/build.gradle#L55)
+* 使用本模板生成的组件马上就可以独立运行, 但是如果您想要集成调试, 还需要在宿主 **App** 中 [依赖此组件](https://github.com/JessYanCoding/ArmsComponent/blob/master/app/build.gradle#L55)
 ```gradle
   dependencies {
     if (!isBuildModule.toBoolean()) {
