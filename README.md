@@ -26,20 +26,17 @@
 * 本模板是基于 [ArmsComponent](https://github.com/JessYanCoding/ArmsComponent) 开发的, 所以使用的是 **ArmsComponent** 的整体架构, 最优的方式是直接 **clone** 或下载 **ArmsComponent** 工程后, 在工程上面直接使用本模板, 开始业务的开发, 让您体验纯傻瓜式的组件化开发
 
 * 使用本模板生成的组件马上就可以独立运行, 但是如果您想要集成调试, 还需要在宿主 **App** 中依赖此组件
-  ```gradle
+```gradle
   dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
     if (!isBuildModule.toBoolean()) {
         implementation project(":ModuleZhihu")
         implementation project(":ModuleGank")
         implementation project(":ModuleGold")
         implementation project(":组件名(Module name)")
-    } else {
-        implementation project(":CommonRes")//因为 CommonRes 依赖了 CommonSDK, 所以如果业务模块需要公共 UI 组件就依赖 CommonRes, 如果不需要就只依赖 CommonSDK
-        implementation project(":CommonService")
     }
   }
-  ```
+```
+
 
 * 此模板会持续保持更新, 但只保证能够兼容最新的 **AndroidStudio 稳定版**, 暂不提供其他版本
 
