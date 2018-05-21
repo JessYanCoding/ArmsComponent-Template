@@ -36,8 +36,8 @@
                    to="${escapeXmlAttribute(resOut)}/values/styles.xml" />
     <copy from="root/res/values/colors.xml"
                    to="${escapeXmlAttribute(resOut)}/values/colors.xml" />
-    <instantiate from="root/test/app_package/ExampleInstrumentedTest.${ktOrJavaExt}.ftl"
-                   to="${escapeXmlAttribute(testOut)}/ExampleInstrumentedTest.${ktOrJavaExt}" />
+    <instantiate from="root/test/app_package/ExampleInstrumentedTest.java.ftl"
+                   to="${escapeXmlAttribute(testOut)}/ExampleInstrumentedTest.java" />
 
     <instantiate from="root/src/app_package/GlobalConfiguration.java.ftl"
                    to="${projectOut}/src/main/java/${slashedPackageName(packageName)}/app/GlobalConfiguration.java" />
@@ -51,8 +51,8 @@
 
 
 <#if unitTestsSupported>
-    <instantiate from="root/test/app_package/ExampleUnitTest.${ktOrJavaExt}.ftl"
-                   to="${escapeXmlAttribute(unitTestOut)}/ExampleUnitTest.${ktOrJavaExt}" />
+    <instantiate from="root/test/app_package/ExampleUnitTest.java.ftl"
+                   to="${escapeXmlAttribute(unitTestOut)}/ExampleUnitTest.java" />
 </#if>
 
 
