@@ -33,10 +33,12 @@
 ```gradle
   dependencies {
     if (!isBuildModule.toBoolean()) {
-        implementation project(":ModuleZhihu")
-        implementation project(":ModuleGank")
-        implementation project(":ModuleGold")
-        implementation project(":组件名(Module name)")
+        //在宿主 App 中使用 implementation 依赖业务组件, 业务组件的代码就会完全暴露给宿主 App, 不利于代码的隔离
+        //使用 runtimeOnly 依赖业务组件, 可实现业务组件的代码在编译时对宿主 App 不可见, 仅在运行时对宿主 App 可见
+        runtimeOnly project(":ModuleZhihu")
+        runtimeOnly project(":ModuleGank")
+        runtimeOnly project(":ModuleGold")
+        runtimeOnly project(":组件名(Module name)")
     }
   }
 ```
