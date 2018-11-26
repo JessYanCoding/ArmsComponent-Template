@@ -24,9 +24,12 @@ import ${packageName}.BuildConfig;
  * @see com.jess.arms.base.delegate.AppDelegate
  * @see com.jess.arms.integration.ManifestParser
  * @see <a href="https://github.com/JessYanCoding/ArmsComponent/wiki#3.3">ConfigModule wiki 官方文档</a>
- * Created by ArmsComponentTemplate
+ * Created by ArmsComponentTemplate on ${.now?string["MM/dd/yyyy HH:mm"]}
  * <a href="mailto:jess.yan.effort@gmail.com">Contact me</a>
  * <a href="https://github.com/JessYanCoding">Follow me</a>
+ * <a href="https://github.com/JessYanCoding/ArmsComponent">Star me</a>
+ * <a href="https://github.com/JessYanCoding/ArmsComponent/wiki">See me</a>
+ * <a href="https://github.com/JessYanCoding/ArmsComponent-Template">模版请保持更新</a>
  * ================================================
  */
 public final class GlobalConfiguration implements ConfigModule {
