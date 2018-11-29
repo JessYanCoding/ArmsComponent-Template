@@ -1,7 +1,5 @@
 <#import "root://activities/common/kotlin_macros.ftl" as kt>
-
 <@kt.addKotlinPlugins />
-
 apply from:"../common_component_build.gradle"
 
 android {
