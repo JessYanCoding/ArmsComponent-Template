@@ -40,7 +40,9 @@ public class AppLifecyclesImpl implements AppLifecycles {
         //当所有模块集成到宿主 App 时, 在 App 中已经执行了以下代码
         if (BuildConfig.IS_BUILD_MODULE) {
             //leakCanary内存泄露检查
-            ArmsUtils.obtainAppComponentFromContext(application).extras().put(RefWatcher.class.getName(), BuildConfig.USE_CANARY ? LeakCanary.install(application) : RefWatcher.DISABLED);
+            ArmsUtils.obtainAppComponentFromContext(application).extras()
+                    .put(IntelligentCache.getKeyOfKeep(RefWatcher.class.getName())
+                            , BuildConfig.USE_CANARY ? LeakCanary.install(application) : RefWatcher.DISABLED);
         }
     }
 
