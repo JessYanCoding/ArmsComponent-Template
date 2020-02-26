@@ -50,20 +50,20 @@
     
 
 
-<#if unitTestsSupported>
+
     <instantiate from="root/test/app_package/ExampleUnitTest.java.ftl"
                    to="${escapeXmlAttribute(unitTestOut)}/ExampleUnitTest.java" />
-</#if>
 
 
-<#if !createActivity>
+
+
     <mkdir at="${escapeXmlAttribute(srcOut)}" />
-</#if>
 
-<#if makeIgnore>
+
+
     <copy from="root://gradle-projects/common/gitignore"
             to="${escapeXmlAttribute(projectOut)}/.gitignore" />
-</#if>
+
 
 <#include "root://gradle-projects/common/proguard_recipe.xml.ftl"/>
 
